@@ -2,7 +2,7 @@
 
 ## 图片
 
-![[images/2026-06-01-phone-message.png]]
+![[2026-06-01-phone-message.png]]
 
 ## 图片识别
 
