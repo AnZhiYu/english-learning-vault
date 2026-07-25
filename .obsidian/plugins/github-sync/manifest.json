@@ -1,0 +1,9 @@
+{
+  "id": "github-sync",
+  "name": "GitHub Sync",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Run the local GitHub sync command from Obsidian.",
+  "author": "AnZhiYu",
+  "isDesktopOnly": true
+}
