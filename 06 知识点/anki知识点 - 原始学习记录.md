@@ -1,6 +1,6 @@
-# 每日知识点
+# Anki 知识点：原始学习记录
 
-> 从 `每日知识点.txt` 整理而来。日期统一为 `MM-DD`；能识别年份的日记保留完整日期。
+> 从 `每日知识点.txt` 整理而来。这里保留学习当时的日期、错句和零散线索；查询正确用法请优先使用 [[anki知识点]] 的整理版。日期统一为 `MM-DD`；能识别年份的日记保留完整日期。
 
 ## 02 月
 
@@ -911,4 +911,3 @@ Do you mind opening the door?He challenged me to play another tennis game.my tea
 **整理/答案**
 
 excuse me, it this seat taken？
-
