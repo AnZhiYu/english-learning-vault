@@ -1,0 +1,17 @@
+# 学习记录用 union 合并：两边的内容都保留，不会丢字。
+# 代价是偶尔出现重复行，需要手动删掉——但永远不会出现冲突标记，
+# 也不会因为同步失败让改动卡在 stash 里。
+*.md merge=union
+
+# 模板和 AI 规则不该被 union 合并（重复行会破坏结构）。
+# 注意：.gitattributes 的路径不能直接带空格，需要用 [[:space:]] 匹配。
+06[[:space:]]模板[[:space:]]Templates/** merge=text
+07[[:space:]]AI生成规则/**               merge=text
+
+# 二进制资源不做行合并。
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.pdf  binary

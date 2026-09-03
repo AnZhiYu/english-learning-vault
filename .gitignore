@@ -1,2 +1,17 @@
 .DS_Store
+
+# --- Obsidian 配置：只同步真正的偏好设置 ---
+# 下面这些每次开关插件、拖动面板、调整关系图都会变，
+# 是反复产生同步冲突的主要来源，不再跟踪。
 .obsidian/workspace*.json
+.obsidian/core-plugins.json
+.obsidian/core-plugins-migration.json
+.obsidian/community-plugins.json
+.obsidian/graph.json
+.obsidian/hotkeys.json
+.obsidian/plugins/
+.obsidian/cache/
+
+# 保留这些：真正的偏好设置和主题，它们很少变动
+#   app.json / appearance.json / templates.json
+#   .obsidian/themes/  （Minimal 主题）
